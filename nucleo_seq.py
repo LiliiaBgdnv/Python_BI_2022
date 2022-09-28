@@ -8,8 +8,8 @@ def reverse(x):
       return(x [::-1])
 
 while True:
-    command = input("Enter command: ")    # please enter the command of interest
-    if command == "exit": 
+    command = input("Enter command: ").lower()    # please enter the command of interest
+    if command == "exit":
       print("Good luck! :) ")
       break
     else:

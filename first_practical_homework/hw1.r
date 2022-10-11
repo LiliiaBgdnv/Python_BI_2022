@@ -41,7 +41,26 @@ colnames(mac_data) <- c("Category", "Item", "Serving_size", "Calories", "Cal_Fat
 
 
 #2.1 Найдите число блюд в каждой из категорий, для которых витаминная ценность равна нулю (2 балла)
-dplur_task_2.1 <- mac_data %>% filter(Calories>360)
+dplur_task_2.1_breakfast <- nrow(mac_data %>% 
+                                   filter(Category == "Breakfast" & Vitamin.A....Daily.Value.+Vitamin.C....Daily.Value. == 0))
+dplur_task_2.1_beef_and_pork <- nrow(mac_data %>% 
+                                       filter(Category == "Beef & Pork" & Vitamin.A....Daily.Value.+Vitamin.C....Daily.Value. == 0))
+dplur_task_2.1_chicken_and_fish <- nrow(mac_data %>% 
+                                          filter(Category == "Chicken & Fish" & Vitamin.A....Daily.Value.+Vitamin.C....Daily.Value. == 0))
+dplur_task_2.1_salads <- nrow(mac_data %>% 
+                                filter(Category == "Salads" & Vitamin.A....Daily.Value.+Vitamin.C....Daily.Value. == 0))
+dplur_task_2.1_bsnacks_and_sides <- nrow(mac_data %>% 
+                                           filter(Category == "Snacks & Sides" & Vitamin.A....Daily.Value.+Vitamin.C....Daily.Value. == 0))
+dplur_task_2.1_desserts <- nrow(mac_data %>% 
+                                  filter(Category == "Desserts" & Vitamin.A....Daily.Value.+Vitamin.C....Daily.Value. == 0))
+dplur_task_2.1_beverages <- nrow(mac_data %>% 
+                                   filter(Category == "Beverages" & Vitamin.A....Daily.Value.+Vitamin.C....Daily.Value. == 0))
+dplur_task_2.1_coffee_and_tea <- nrow(mac_data %>% 
+                                        filter(Category == "Coffee & Tea" & Vitamin.A....Daily.Value.+Vitamin.C....Daily.Value. == 0))
+dplur_task_2.1_smoothies_ans_snakes <- nrow(mac_data %>% 
+                                              filter(Category == "Smoothies & Shakes" & Vitamin.A....Daily.Value.+Vitamin.C....Daily.Value. == 0))
+
+
 
 #2.2 Посчитайте долю калорий, приходящихся на жиры, для блюд из завтраков и округлите значения до 3 знака (2 балла)
 dplur_task_2.2 <-  mac_data %>% 

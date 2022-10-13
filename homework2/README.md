@@ -1,4 +1,5 @@
-#**Insertion**.
+# **Insertion**
+
 This program is designed to filter the readings in a fastq file. The filtering is performed immediately by GC composition, read quality and length parameters. You can read more about quality coding [here](https://support.illumina.com/help/BaseSpace_OLH_009008/Content/Source/Informatics/BS/QualityScoreEncoding_swBS.htm). 
 
 

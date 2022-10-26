@@ -1,3 +1,4 @@
+The script is written in WSL Ubuntu 20.04 LTS Python 3.9.12.
 This script works with matrices of different dimensions using the capabilities of the NumPy library.
 
 ### The first part is responsible for creating 3 matrices: 

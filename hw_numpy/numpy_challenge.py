@@ -1,7 +1,8 @@
 if __name__ == "__main__":
+  import numpy as np
   a = np.ones((3, 5))
   b = np.arange(0, 60, 5).reshape(3, 4)
-  c = np.random.random((10, 10)) 
+  c = np.random.random((10, 10))
 
 # matrix multiplication
 def matrix_multiplication(first_arr, second_arr):

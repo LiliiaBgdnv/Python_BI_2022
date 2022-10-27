@@ -24,7 +24,7 @@ def multiply_matrices(arr):
       a = np.dot(arr[i], arr[i+1])
     return(a)
   else:
-    return('None')
+    return None
 
 # the distance between 2 one-dimensional arrays
 def compute_2d_distance(first_arr, second_arr):

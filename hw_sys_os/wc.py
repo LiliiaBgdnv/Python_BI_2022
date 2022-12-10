@@ -2,13 +2,13 @@
 import sys
 import os
 import argparse
-description = ''' wc [OPTION]... [FILE]...
-  or:  wc [OPTION]... --files0-from=F
+description = ''' ./wc.py [OPTION]... [FILE]...
+  or:  ./wc.py [OPTION]... --files0-from=F
 Print newline, word, and byte counts for each FILE, and a total line if
 more than one FILE is specified.  A word is a non-zero-length sequence of
-characters delimited by white space.
+characters delimited by white space.\n
 
-With no FILE, or when FILE is -, read standard input.'''
+With no FILE, or when FILE is -, read standard input.\n'''
 parser = argparse.ArgumentParser(description)
 parser.add_argument('file', type=argparse.FileType(), default=sys.stdin, nargs='?')
 parser.add_argument('-l', '--lines', action='store_true', help='print the newline counts')

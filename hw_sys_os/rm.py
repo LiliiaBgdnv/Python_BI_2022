@@ -3,7 +3,7 @@ import os
 import sys
 import shutil
 import argparse
-description = '''rm [OPTION]... [FILE]...
+description = ''' ./rm.py [OPTION]... [FILE]...
 Remove (unlink) the FILE(s).\n'''
 parser = argparse.ArgumentParser(description)
 parser.add_argument('-r', '-R', '--recursive', action='store_true', default=False, required=False,  help='remove directories and their contents recursively')

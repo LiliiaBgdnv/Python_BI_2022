@@ -6,11 +6,11 @@ def dir_path(string):
         return string
     else:
         raise NotADirectoryError(string)
-description = ''' ls [OPTION]... [FILE]...
+description = ''' ./ls.py [OPTION]... [FILE]...
 List information about the FILEs (the current directory by default).
-Sort entries alphabetically if none of -cftuvSUX nor --sort is specified.
+Sort entries alphabetically if none of -cftuvSUX nor --sort is specified.\n
 
-Mandatory arguments to long options are mandatory for short options too.'''
+Mandatory arguments to long options are mandatory for short options too.\n'''
 parser = argparse.ArgumentParser(description)
 parser.add_argument('-a', '--all',  action='store_true',  default=False, required=False, help='do not ignore entries starting with .')
 parser.add_argument('some_dir', type=dir_path, nargs='?')

@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 import sys
 import argparse
-description = ''' cat [OPTION]... [FILE]...
-Concatenate FILE(s) to standard output.
+description = ''' ./cat.py [OPTION]... [FILE]...
+Concatenate FILE(s) to standard output.\n
 '''
 parser = argparse.ArgumentParser(description)
 parser.add_argument('input', nargs='*',  type=argparse.FileType(), default=sys.stdin)

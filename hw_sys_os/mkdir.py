@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 import os
 import argparse
-description = '''  mkdir [OPTION]... DIRECTORY...
-Create the DIRECTORY(ies), if they do not already exist.'''
+description = '''  ./mkdir.py [OPTION]... DIRECTORY...
+Create the DIRECTORY(ies), if they do not already exist.\n'''
 parser = argparse.ArgumentParser(description)
 parser.add_argument('path', nargs='*')
 parser.add_argument('-p', '--parents', help='no error if existing, make parent directories as needed')

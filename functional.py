@@ -1,22 +1,27 @@
 import sys
 #Task 1
 def sequential_map(*args):
-    *func_lst, conteiner = [*args] #unpack all the arguments, write the functions to a list, and write the last argument as a container
+    # Unpack all the arguments, write the functions to a list, and write the last argument as a container.
+    *func_lst, conteiner = [*args]
     for func in func_lst:
-        conteiner = func(conteiner) #overwrite to the container the result of the function applied to each element
+        # Overwrite to the container the result of the function applied to each element.
+        conteiner = func(conteiner)
     return [x for x in conteiner]
 
 #Task 2
 def consensus_filter(*args):
-    *func_lst, conteiner = [*args] #unpack all the arguments, write the functions to a list, and write the last argument as a container
+    # Unpack all the arguments, write the functions to a list, and write the last argument as a container.
+    *func_lst, conteiner = [*args]
     for func in func_lst:
         conteiner =  list(filter(func, conteiner))
     return conteiner
 
 #Task 3
 def conditional_reduce(*args):
-    *func_lst, conteiner = [*args] #unpack all the arguments, write the functions to a list, and write the last argument as a container
-    first_element, *elements_list = list(filter(func_lst[0], conteiner)) #write the first number in first_element, and all the others in *elements_list (which return True in the first function)
+    # Unpack all the arguments, write the functions to a list, and write the last argument as a container
+    *func_lst, conteiner = [*args]
+    # Write the first number in first_element, and all the others in *elements_list (which return True in the first function)
+    first_element, *elements_list = list(filter(func_lst[0], conteiner))
     for elem in elements_list:
         first_element = func_lst[1](first_element, elem)
     return first_element

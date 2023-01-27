@@ -30,8 +30,8 @@ def conditional_reduce(*args):
 def func_chain(*args):
     def pain(x):
         for func in args:
-          result = func(result)
-        return result
+          x = func(x)
+        return x
     return pain
    
 #Task 5 ()   

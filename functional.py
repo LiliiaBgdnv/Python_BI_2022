@@ -35,7 +35,7 @@ def func_chain(*args):
     return pain
    
 #Task 5 ()   
-def my_print(*args, sep=' ', end='\n', file='o.txt'):
+def my_print(*args, sep=' ', end='\n', file=sys.stdout):
     if file == None:
         sys.stdout.write(f'{sep.join("{}".format(elem) for elem in args)}{end}')
     else:

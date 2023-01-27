@@ -5,8 +5,8 @@ def sequential_map(*args):
     *func_lst, conteiner = [*args]
     for func in func_lst:
         # Overwrite to the container the result of the function applied to each element.
-        conteiner = func(conteiner)
-    return [x for x in conteiner]
+        conteiner = map(func, conteiner)
+    return list(conteiner)
 
 #Task 2
 def consensus_filter(*args):

@@ -10,12 +10,10 @@ def matrix_multiplication(first_arr, second_arr):
      return(np.dot(first_arr, second_arr))
 
 # check if it is possible to multiply arrays
-def multiplication_check(arr):
-  b = np.vectorize(lambda x: x.shape)(np.array(list(map(lambda x: np.array(x), arr))))
-  if all(b[0][1:] == b[1][:-1]) == True:
-    return True
-  else:
-    return False
+def multiplication_check(matrices_list):
+  combined_array = np.array(list(map(lambda x: np.array(x), matrices_list)))
+  shapes_array = np.vectorize(lambda x: x.shape)(combined_array)
+  return all(shapes_array[0][1:] == shapes_array[1][:-1])
 
 # matrix multiplication from list
 def multiply_matrices(arr):

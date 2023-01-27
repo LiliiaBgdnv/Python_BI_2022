@@ -13,7 +13,7 @@ def consensus_filter(*args):
     # Unpack all the arguments, write the functions to a list, and write the last argument as a container.
     *func_lst, conteiner = [*args]
     for func in func_lst:
-        conteiner =  list(filter(func, conteiner))
+        conteiner =  filter(func, conteiner)
     return conteiner
 
 #Task 3

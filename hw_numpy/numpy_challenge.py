@@ -16,11 +16,12 @@ def multiplication_check(matrices_list):
   return all(shapes_array[0][1:] == shapes_array[1][:-1])
 
 # matrix multiplication from list
-def multiply_matrices(arr):
-  if multiplication_check(arr) == True:
-    for i in range(len(arr)-1):
-      a = np.dot(arr[i], arr[i+1])
-    return(a)
+def multiply_matrices(matrices_list):
+  if multiplication_check(matrices_list):
+    result_matrix = matrices_list[0]
+    for i in range(1, len(result_matrix)):
+      result_matrix = np.dot(result_matrix, arr[i])
+    return a 
   else:
     return None
 

@@ -19,13 +19,10 @@ def gc_count_fun(f, gc_bounds=(0, 100)):
 
 """Read quality check function"""
 def quality_fun(f, quality_threshold = 0):
-  phred_value=0
-  for symbol in f:
-    phred_value += (ord(symbol) - 33)
-  if quality_threshold <= (phred_value/len(f)):
-    return 1
-  else:
-    return 0
+    phred_value=0
+    for symbol in f:
+        phred_value += (ord(symbol) - 33)
+    return quality_threshold <= (phred_value /len(f))
 
 """Length check function"""
 def len_fun(f, length_bounds = (0, 2**32)):

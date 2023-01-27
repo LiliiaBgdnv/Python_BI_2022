@@ -30,7 +30,7 @@ def read_bed6(bed_file):
         comment='#',
         header=None,
         names = ("chromosome", "start", "end", "name", "score", "strand"))
-    return(bed_table)
+    return bed_table
 bed_table = read_bed6(path_alignment)
 bed_table
 # table showing for each chromosome the number of rRNAs of each type

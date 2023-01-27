@@ -9,6 +9,7 @@ parser = argparse.ArgumentParser(description)
 parser.add_argument('-r', '-R', '--recursive', action='store_true', default=False, required=False,  help='remove directories and their contents recursively')
 parser.add_argument('input', nargs='*')
 args = parser.parse_args()
+
 for file in args.input:
     if os.path.isdir(file) and args.recursive:
         shutil.rmtree(os.path.abspath(file))

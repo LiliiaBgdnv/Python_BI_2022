@@ -42,8 +42,8 @@ def main(input_fastq, output_file_prefix, gc_bounds = (0, 100), length_bounds = 
   with open(input_fastq, 'r') as input:
       f = input.read().split('\n')
       #Checking whether files need to be saved
-      if save_filtered == True:
-        with open((str(output_file_prefix) + "_passed.fastq"), 'w') as output_passed, open((str(output_file_prefix) + "_failed.fastq"), 'w') as output_failed:
+      if save_filtered:
+        with open(output_file_prefix + "_passed.fastq", 'w') as output_passed, open(output_file_prefix + "_failed.fastq", 'w') as output_failed:
 
           for i in range(1, len(f), 4):
             if GC_count_fun(f[i], gc_bounds) == 1:

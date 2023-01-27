@@ -3,8 +3,7 @@ def gc_count_fun(f, gc_bounds=(0, 100)):
   cnt=0
   #Counting the amount of cytosine and guanine in a string
   for nucl in f:
-    if (nucl == 'C') or (nucl == 'G'):
-      cnt += 1
+    cnt += (nucl == 'C' or nucl == 'G')
   #Checking and defining boundaries
   if type(gc_bounds) == tuple:
     right_margin = gc_bounds[1]

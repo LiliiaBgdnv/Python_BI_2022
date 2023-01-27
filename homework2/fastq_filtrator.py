@@ -12,10 +12,7 @@ def gc_count_fun(f, gc_bounds=(0, 100)):
     right_margin = gc_bounds
     left_margin = 0
 
-  if right_margin >= ((cnt/len(f))*100) >= left_margin:
-     return 1
-  else:
-    return 0
+  return right_margin >= ((cnt / len(f)) * 100) >= left_margin
 
 """Read quality check function"""
 def quality_fun(f, quality_threshold = 0):

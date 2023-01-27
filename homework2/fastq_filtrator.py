@@ -1,5 +1,5 @@
 """GC-check function"""
-def GC_count_fun(f, gc_bounds = (0, 100)):
+def gc_count_fun(f, gc_bounds=(0, 100)):
   cnt=0
   #Counting the amount of cytosine and guanine in a string
   for nucl in f:

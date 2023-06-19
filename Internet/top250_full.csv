@@ -1,0 +1,251 @@
+name,rank,year,rating,n_reviews,director
+The Shawshank Redemption,1,1994,9.2,2719690,Frank Darabont
+The Godfather,2,1972,9.2,1889784,Francis Ford Coppola
+The Dark Knight,3,2008,9.0,2692428,Christopher Nolan
+The Godfather Part II,4,1974,9.0,1289497,Francis Ford Coppola
+12 Angry Men,5,1957,9.0,803857,Sidney Lumet
+Schindler's List,6,1993,8.9,1373666,Steven Spielberg
+The Lord of the Rings: The Return of the King,7,2003,8.9,1871332,Peter Jackson
+Pulp Fiction,8,1994,8.8,2088653,Quentin Tarantino
+The Lord of the Rings: The Fellowship of the Ring,9,2001,8.8,1900603,Peter Jackson
+"The Good, the Bad and the Ugly",10,1966,8.8,771284,Sergio Leone
+Forrest Gump,11,1994,8.8,2114484,Robert Zemeckis
+Fight Club,12,1999,8.7,2163173,David Fincher
+The Lord of the Rings: The Two Towers,13,2002,8.7,1689448,Peter Jackson
+Inception,14,2010,8.7,2389494,Christopher Nolan
+Star Wars: Episode V - The Empire Strikes Back,15,1980,8.7,1309479,Irvin Kershner
+The Matrix,16,1999,8.7,1939782,Lana Wachowski
+Goodfellas,17,1990,8.7,1179815,Martin Scorsese
+One Flew Over the Cuckoo's Nest,18,1975,8.6,1020405,Milos Forman
+Se7en,19,1995,8.6,1679816,David Fincher
+Seven Samurai,20,1954,8.6,350293,Akira Kurosawa
+It's a Wonderful Life,21,1946,8.6,468779,Frank Capra
+The Silence of the Lambs,22,1991,8.6,1454068,Jonathan Demme
+Saving Private Ryan,23,1998,8.6,1411363,Steven Spielberg
+City of God,24,2002,8.6,765533,Fernando Meirelles
+Interstellar,25,2014,8.6,1880311,Christopher Nolan
+Life Is Beautiful,26,1997,8.6,705420,Roberto Benigni
+The Green Mile,27,1999,8.6,1322042,Frank Darabont
+Star Wars,28,1977,8.5,1381834,George Lucas
+Terminator 2: Judgment Day,29,1991,8.5,1113925,James Cameron
+Back to the Future,30,1985,8.5,1225462,Robert Zemeckis
+Spirited Away,31,2001,8.5,779445,Hayao Miyazaki
+The Pianist,32,2002,8.5,846534,Roman Polanski
+Psycho,33,1960,8.5,681232,Alfred Hitchcock
+Parasite,34,2019,8.5,835805,Bong Joon Ho
+Léon: The Professional,35,1994,8.5,1178484,Luc Besson
+The Lion King,36,1994,8.5,1074660,Roger Allers
+Gladiator,37,2000,8.5,1521804,Ridley Scott
+American History X,38,1998,8.5,1135550,Tony Kaye
+The Departed,39,2006,8.5,1344222,Martin Scorsese
+The Prestige,40,2006,8.5,1352345,Christopher Nolan
+Whiplash,41,2014,8.5,889121,Damien Chazelle
+The Usual Suspects,42,1995,8.5,1097395,Bryan Singer
+Casablanca,43,1942,8.5,579323,Michael Curtiz
+Grave of the Fireflies,44,1988,8.5,283625,Isao Takahata
+Harakiri,45,1962,8.5,59747,Masaki Kobayashi
+The Intouchables,46,2011,8.5,873217,Olivier Nakache
+Modern Times,47,1936,8.4,246308,Charles Chaplin
+Once Upon a Time in the West,48,1968,8.4,334567,Sergio Leone
+Cinema Paradiso,49,1988,8.4,265833,Giuseppe Tornatore
+Rear Window,50,1954,8.4,498312,Alfred Hitchcock
+Alien,51,1979,8.4,895471,Ridley Scott
+City Lights,52,1931,8.4,187262,Charles Chaplin
+Apocalypse Now,53,1979,8.4,677043,Francis Ford Coppola
+Memento,54,2000,8.4,1254086,Christopher Nolan
+Django Unchained,55,2012,8.4,1582432,Quentin Tarantino
+Raiders of the Lost Ark,56,1981,8.4,978904,Steven Spielberg
+WALL·E,57,2008,8.4,1132391,Andrew Stanton
+The Lives of Others,58,2006,8.4,394177,Florian Henckel von Donnersmarck
+Sunset Blvd.,59,1950,8.4,225201,Billy Wilder
+Paths of Glory,60,1957,8.4,200703,Stanley Kubrick
+The Shining,61,1980,8.4,1038807,Stanley Kubrick
+The Great Dictator,62,1940,8.4,227115,Charles Chaplin
+Avengers: Infinity War,63,2018,8.4,1106514,Anthony Russo
+Witness for the Prosecution,64,1957,8.4,128131,Billy Wilder
+Aliens,65,1986,8.3,727135,James Cameron
+Spider-Man: Into the Spider-Verse,66,2018,8.3,549451,Bob Persichetti
+American Beauty,67,1999,8.3,1166731,Sam Mendes
+Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb,68,1964,8.3,496999,Stanley Kubrick
+The Dark Knight Rises,69,2012,8.3,1727304,Christopher Nolan
+Oldboy,70,2003,8.3,590008,Park Chan-wook
+Inglourious Basterds,71,2009,8.3,1475841,Quentin Tarantino
+Amadeus,72,1984,8.3,406917,Milos Forman
+Coco,73,2017,8.3,524570,Lee Unkrich
+Toy Story,74,1995,8.3,1008594,John Lasseter
+Braveheart,75,1995,8.3,1049194,Mel Gibson
+Joker,76,2019,8.3,1329381,Todd Phillips
+Das Boot,77,1981,8.3,254017,Wolfgang Petersen
+Avengers: Endgame,78,2019,8.3,1161381,Anthony Russo
+Princess Mononoke,79,1997,8.3,402327,Hayao Miyazaki
+Once Upon a Time in America,80,1984,8.3,357348,Sergio Leone
+Good Will Hunting,81,1997,8.3,991594,Gus Van Sant
+Your Name.,82,2016,8.3,278929,Makoto Shinkai
+Singin' in the Rain,83,1952,8.3,246928,Stanley Donen
+3 Idiots,84,2009,8.3,407294,Rajkumar Hirani
+Requiem for a Dream,85,2000,8.3,854829,Darren Aronofsky
+High and Low,86,1963,8.3,46985,Akira Kurosawa
+Toy Story 3,87,2010,8.3,847922,Lee Unkrich
+Capernaum,88,2018,8.3,93383,Nadine Labaki
+Star Wars: Episode VI - Return of the Jedi,89,1983,8.3,1067878,Richard Marquand
+Eternal Sunshine of the Spotless Mind,90,2004,8.3,1022999,Michel Gondry
+2001: A Space Odyssey,91,1968,8.3,679254,Stanley Kubrick
+Come and See,92,1985,8.3,83800,Elem Klimov
+Reservoir Dogs,93,1992,8.3,1034022,Quentin Tarantino
+The Hunt,94,2012,8.3,337486,Thomas Vinterberg
+Citizen Kane,95,1941,8.2,447566,Orson Welles
+M,96,1931,8.2,160517,Fritz Lang
+Lawrence of Arabia,97,1962,8.2,298778,David Lean
+North by Northwest,98,1959,8.2,332437,Alfred Hitchcock
+Ikiru,99,1952,8.2,80778,Akira Kurosawa
+Vertigo,100,1958,8.2,408025,Alfred Hitchcock
+The Apartment,101,1960,8.2,185095,Billy Wilder
+Amélie,102,2001,8.2,765199,Jean-Pierre Jeunet
+A Clockwork Orange,103,1971,8.2,841232,Stanley Kubrick
+Double Indemnity,104,1944,8.2,159723,Billy Wilder
+Full Metal Jacket,105,1987,8.2,752577,Stanley Kubrick
+Scarface,106,1983,8.2,856518,Brian De Palma
+Hamilton,107,2020,8.2,99169,Thomas Kail
+Incendies,108,2010,8.2,181770,Denis Villeneuve
+Heat,109,1995,8.2,667026,Michael Mann
+To Kill a Mockingbird,110,1962,8.2,320305,Robert Mulligan
+Up,111,2009,8.2,1059420,Pete Docter
+The Sting,112,1973,8.2,267670,George Roy Hill
+A Separation,113,2011,8.2,247977,Asghar Farhadi
+Metropolis,114,1927,8.2,177009,Fritz Lang
+Taxi Driver,115,1976,8.2,851961,Martin Scorsese
+L.A. Confidential,116,1997,8.2,589500,Curtis Hanson
+Die Hard,117,1988,8.2,895670,John McTiernan
+Snatch,118,2000,8.2,867582,Guy Ritchie
+Indiana Jones and the Last Crusade,119,1989,8.2,765378,Steven Spielberg
+Bicycle Thieves,120,1948,8.2,166168,Vittorio De Sica
+Top Gun: Maverick,121,2022,8.2,556540,Joseph Kosinski
+Like Stars on Earth,122,2007,8.2,196514,Aamir Khan
+1917,123,2019,8.2,610616,Sam Mendes
+Downfall,124,2004,8.2,360200,Oliver Hirschbiegel
+Dangal,125,2016,8.2,195354,Nitesh Tiwari
+For a Few Dollars More,126,1965,8.2,260824,Sergio Leone
+Batman Begins,127,2005,8.2,1490674,Christopher Nolan
+The Kid,128,1921,8.2,128368,Charles Chaplin
+Some Like It Hot,129,1959,8.2,271382,Billy Wilder
+The Father,130,2020,8.2,163309,Florian Zeller
+All About Eve,131,1950,8.2,133145,Joseph L. Mankiewicz
+The Wolf of Wall Street,132,2013,8.2,1444072,Martin Scorsese
+Green Book,133,2018,8.2,509724,Peter Farrelly
+John Wick: Chapter 4,134,2023,8.2,46785,Chad Stahelski
+Judgment at Nuremberg,135,1961,8.2,79096,Stanley Kramer
+Ran,136,1985,8.2,127944,Akira Kurosawa
+Casino,137,1995,8.2,529639,Martin Scorsese
+The Truman Show,138,1998,8.2,1104229,Peter Weir
+There Will Be Blood,139,2007,8.2,596987,Paul Thomas Anderson
+Pan's Labyrinth,140,2006,8.2,676985,Guillermo del Toro
+Unforgiven,141,1992,8.2,417721,Clint Eastwood
+The Sixth Sense,142,1999,8.2,1004330,M. Night Shyamalan
+Shutter Island,143,2010,8.2,1343872,Martin Scorsese
+A Beautiful Mind,144,2001,8.2,943950,Ron Howard
+Jurassic Park,145,1993,8.1,1004807,Steven Spielberg
+Yojimbo,146,1961,8.1,124906,Akira Kurosawa
+The Treasure of the Sierra Madre,147,1948,8.1,126817,John Huston
+Monty Python and the Holy Grail,148,1975,8.1,548318,Terry Gilliam
+No Country for Old Men,149,2007,8.1,991479,Ethan Coen
+The Great Escape,150,1963,8.1,247979,John Sturges
+Kill Bill: Vol. 1,151,2003,8.1,1131271,Quentin Tarantino
+Rashomon,152,1950,8.1,171423,Akira Kurosawa
+The Thing,153,1982,8.1,433868,John Carpenter
+Spider-Man: No Way Home,154,2021,8.1,781059,Jon Watts
+Finding Nemo,155,2003,8.1,1057846,Andrew Stanton
+The Elephant Man,156,1980,8.1,245754,David Lynch
+Chinatown,157,1974,8.1,332087,Roman Polanski
+Raging Bull,158,1980,8.1,359889,Martin Scorsese
+V for Vendetta,159,2005,8.1,1133932,James McTeigue
+Gone with the Wind,160,1939,8.1,320357,Victor Fleming
+"Lock, Stock and Two Smoking Barrels",161,1998,8.1,590872,Guy Ritchie
+Dial M for Murder,162,1954,8.1,179052,Alfred Hitchcock
+Inside Out,163,2015,8.1,727996,Pete Docter
+The Secret in Their Eyes,164,2009,8.1,212677,Juan José Campanella
+Howl's Moving Castle,165,2004,8.1,405644,Hayao Miyazaki
+"Three Billboards Outside Ebbing, Missouri",166,2017,8.1,520398,Martin McDonagh
+Trainspotting,167,1996,8.1,696343,Danny Boyle
+The Bridge on the River Kwai,168,1957,8.1,224129,David Lean
+Prisoners,169,2013,8.1,735233,Denis Villeneuve
+Warrior,170,2011,8.1,479049,Gavin O'Connor
+Fargo,171,1996,8.1,687793,Joel Coen
+Gran Torino,172,2008,8.1,784729,Clint Eastwood
+My Neighbor Totoro,173,1988,8.1,347959,Hayao Miyazaki
+Catch Me If You Can,174,2002,8.1,1007556,Steven Spielberg
+Million Dollar Baby,175,2004,8.1,695794,Clint Eastwood
+Children of Heaven,176,1997,8.1,76026,Majid Majidi
+Blade Runner,177,1982,8.1,781488,Ridley Scott
+The Gold Rush,178,1925,8.1,113073,Charles Chaplin
+Klaus,179,2019,8.1,163727,Sergio Pablos
+Harry Potter and the Deathly Hallows: Part 2,180,2011,8.1,891998,David Yates
+Before Sunrise,181,1995,8.1,316694,Richard Linklater
+12 Years a Slave,182,2013,8.1,711084,Steve McQueen
+On the Waterfront,183,1954,8.1,157530,Elia Kazan
+Ben-Hur,184,1959,8.1,243161,William Wyler
+The Grand Budapest Hotel,185,2014,8.1,828042,Wes Anderson
+Gone Girl,186,2014,8.1,999772,David Fincher
+Wild Strawberries,187,1957,8.1,109174,Ingmar Bergman
+The General,188,1926,8.1,93150,Clyde Bruckman
+In the Name of the Father,189,1993,8.1,178508,Jim Sheridan
+Barry Lyndon,190,1975,8.1,172075,Stanley Kubrick
+The Third Man,191,1949,8.1,174236,Carol Reed
+The Deer Hunter,192,1978,8.1,344441,Michael Cimino
+Hacksaw Ridge,193,2016,8.1,541574,Mel Gibson
+The Wages of Fear,194,1953,8.1,62683,Henri-Georges Clouzot
+Memories of Murder,195,2003,8.1,192142,Bong Joon Ho
+Sherlock Jr.,196,1924,8.1,51663,Buster Keaton
+Wild Tales,197,2014,8.1,203079,Damián Szifron
+Mr. Smith Goes to Washington,198,1939,8.1,116979,Frank Capra
+Mad Max: Fury Road,199,2015,8.1,1020113,George Miller
+Mary and Max,200,2009,8.1,179754,Adam Elliot
+The Seventh Seal,201,1957,8.1,188379,Ingmar Bergman
+How to Train Your Dragon,202,2010,8.1,753547,Dean DeBlois
+"Monsters, Inc.",203,2001,8.1,923585,Pete Docter
+Jaws,204,1975,8.1,617899,Steven Spielberg
+Dead Poets Society,205,1989,8.1,503295,Peter Weir
+Room,206,2015,8.1,428237,Lenny Abrahamson
+The Big Lebowski,207,1998,8.1,820403,Joel Coen
+Tokyo Story,208,1953,8.1,63415,Yasujirô Ozu
+The Passion of Joan of Arc,209,1928,8.1,56666,Carl Theodor Dreyer
+Ford v Ferrari,210,2019,8.0,409431,James Mangold
+Hotel Rwanda,211,2004,8.0,360091,Terry George
+Rocky,212,1976,8.0,591708,John G. Avildsen
+Platoon,213,1986,8.0,420514,Oliver Stone
+Ratatouille,214,2007,8.0,755797,Brad Bird
+Spotlight,215,2015,8.0,478372,Tom McCarthy
+Logan,216,2017,8.0,778627,James Mangold
+The Terminator,217,1984,8.0,878397,James Cameron
+Stand by Me,218,1986,8.0,412893,Rob Reiner
+Rush,219,2013,8.0,487392,Ron Howard
+Network,220,1976,8.0,162207,Sidney Lumet
+Before Sunset,221,2004,8.0,270908,Richard Linklater
+Into the Wild,222,2007,8.0,631184,Sean Penn
+The Wizard of Oz,223,1939,8.0,407090,Victor Fleming
+The Best Years of Our Lives,224,1946,8.0,66450,William Wyler
+Groundhog Day,225,1993,8.0,645030,Harold Ramis
+The Exorcist,226,1973,8.0,416569,William Friedkin
+The Incredibles,227,2004,8.0,752776,Brad Bird
+Pather Panchali,228,1955,8.0,34488,Satyajit Ray
+To Be or Not to Be,229,1942,8.0,39077,Ernst Lubitsch
+La haine,230,1995,8.0,178841,Mathieu Kassovitz
+Pirates of the Caribbean: The Curse of the Black Pearl,231,2003,8.0,1143695,Gore Verbinski
+The Grapes of Wrath,232,1940,8.0,95405,John Ford
+Hachi: A Dog's Tale,233,2009,8.0,291944,Lasse Hallström
+The Battle of Algiers,234,1966,8.0,61835,Gillo Pontecorvo
+Jai Bhim,235,2021,8.0,205163,T.J. Gnanavel
+My Father and My Son,236,2005,8.0,87708,Çagan Irmak
+Amores Perros,237,2000,8.0,244048,Alejandro G. Iñárritu
+Rebecca,238,1940,8.0,139815,Alfred Hitchcock
+Cool Hand Luke,239,1967,8.0,180046,Stuart Rosenberg
+The Handmaiden,240,2016,8.0,154216,Park Chan-wook
+The 400 Blows,241,1959,8.0,120954,François Truffaut
+The Sound of Music,242,1965,8.0,242044,Robert Wise
+It Happened One Night,243,1934,8.0,106402,Frank Capra
+Persona,244,1966,8.0,122238,Ingmar Bergman
+Life of Brian,245,1979,8.0,405893,Terry Jones
+The Iron Giant,246,1999,8.0,205720,Brad Bird
+The Help,247,2011,8.0,467833,Tate Taylor
+Dersu Uzala,248,1975,8.0,31360,Akira Kurosawa
+Aladdin,249,1992,8.0,430905,Ron Clements
+Dances with Wolves,250,1990,8.0,273274,Kevin Costner

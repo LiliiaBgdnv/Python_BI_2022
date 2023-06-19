@@ -1,6 +1,4 @@
-<<<<<<< HEAD
 
-=======
 The script was run on Windows 10 WSL2 Ubuntu 20.04 LTS.
 
 ## sequential_map function 
